@@ -5,3 +5,32 @@ In this practical, a Scrum-based Agile project named Online Library Management S
 
 
 In this experiment, Docker Desktop was installed and a folder named DockerDemo was created. A simple Java program displaying "Hello Docker World" was written along with a Dockerfile. A Docker image named dockerdemo was successfully built and verified using the docker images command. The container was executed using docker run, and the expected output was displayed. The container logs and execution status were inspected using Docker Desktop and Docker commands. Thus, the experiment demonstrated how Docker simplifies application packaging, execution, and deployment in an isolated and consistent environment.
+
+
+
+FROM eclipse-temurin:21-jdk
+
+WORKDIR /app
+
+COPY Main.java .
+
+RUN javac Main.java
+
+CMD ["java", "Main"]
+
+
+
+
+dir
+
+docker build -t dockerdemo .
+
+docker images
+
+docker run dockerdemo
+
+To display running containers : docker ps -a
+
+docker logs CONTAINER_ID
+Replace CONTAINER_ID with the actual ID.
+
