@@ -14,3 +14,13 @@ Student ID: 103
 Name: Amit Verma
 Course: Artificial Intelligence and Data Science
 Year: Second Year
+
+Student ID: 104
+Name: Sneha Kulkarni
+Course: Computer Science Engineering
+Year: Second Year
+
+Student ID: 105
+Name: Rohan Deshmukh
+Course: Electronics Engineering
+Year: Second Year
