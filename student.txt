@@ -1,26 +1,7 @@
-STUDENT MANAGEMENT SYSTEM
+In this practical, a local Git repository was created for the Student Management System. A file named student.txt was created with sample student information and committed using the message "Initial commit". A remote repository was created on GitHub and linked to the local repository. A new branch named feature-update was created to add additional student records. The changes were committed, merged into the main branch, and pushed to GitHub. Finally, Git commands were used to display the commit history. Thus, the basic version-control operations using Git and GitHub were successfully performed.
 
-Student ID: 101
-Name: Rahul Sharma
-Course: Computer Engineering
-Year: Second Year
 
-Student ID: 102
-Name: Priya Patil
-Course: Information Technology
-Year: Second Year
+In this practical, a Scrum-based Agile project named Online Library Management System was created using Jira. The workflow was configured with four stages: To Do, In Progress, In Review, and Done. Two Tasks, one Story, and one Bug were created with appropriate descriptions and priorities. The work items were organized in the backlog and added to a sprint. One work item was moved through all workflow stages until it reached Done. The team-member invitation feature was also demonstrated. Thus, the practical demonstrated how Jira supports sprint planning, task tracking, team collaboration, and progress monitoring. Agile project management helps teams deliver work incrementally, adapt to changes, identify issues early, and improve coordination.
 
-Student ID: 103
-Name: Amit Verma
-Course: Artificial Intelligence and Data Science
-Year: Second Year
 
-Student ID: 104
-Name: Sneha Kulkarni
-Course: Computer Science Engineering
-Year: Second Year
-
-Student ID: 105
-Name: Rohan Deshmukh
-Course: Electronics Engineering
-Year: Second Year
+In this experiment, Docker Desktop was installed and a folder named DockerDemo was created. A simple Java program displaying "Hello Docker World" was written along with a Dockerfile. A Docker image named dockerdemo was successfully built and verified using the docker images command. The container was executed using docker run, and the expected output was displayed. The container logs and execution status were inspected using Docker Desktop and Docker commands. Thus, the experiment demonstrated how Docker simplifies application packaging, execution, and deployment in an isolated and consistent environment.
