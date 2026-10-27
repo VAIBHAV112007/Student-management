@@ -34,3 +34,32 @@ To display running containers : docker ps -a
 docker logs CONTAINER_ID
 Replace CONTAINER_ID with the actual ID.
 
+
+
+
+
+
+
+
+
+1. Install Docker Desktop on the system. 
+2. Create a folder named DockerDemo. 
+3. Write a simple Java program that displays: 
+4. Hello Docker World 
+5. Create a Dockerfile without any extension. 
+6. Navigate to the project directory using PowerShell: 
+Shell 
+cd C:\Users\Documents\DockerDemo 
+7. Build the Docker image using: 
+Shell 
+docker build -t dockerdemo . 
+8. Verify that the image is created successfully: 
+Shell 
+docker images 
+9. Run the container: 
+Shell 
+docker run dockerdemo 
+10. Open Docker Desktop and inspect the created container for logs and execution 
+details. 
+11. Record the output and container status. 
+12. Write a brief conclusion.
